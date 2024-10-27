@@ -7,7 +7,7 @@
     "import-docbase": "ts-node scripts/import-docbase.ts",
     "serve": "honkit serve",
     "build": "honkit build",
-    "start": "npm run import-docbase && npm run build && npm run serve",
+    "start": "npm run build && npm run serve",
     "clean": "rimraf _book",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,7 +15,14 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
-    "gitbook-plugin-auto-summary": "^0.0.2"
+    "gitbook-plugin-advanced-emoji": "^0.2.2",
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-auto-summary": "^0.0.2",
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-copy-code-button": "^0.0.2",
+    "gitbook-plugin-hide-published-with": "^0.0.1",
+    "gitbook-plugin-numbered-headings": "^1.1.1",
+    "gitbook-plugin-theme-api": "^1.1.2"
   },
   "devDependencies": {
     "honkit": "^6.0.2",

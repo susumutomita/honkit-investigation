@@ -1,7 +1,13 @@
 {
   "language": "ja",
   "plugins": [
-    "auto-summary"
+    "auto-summary",
+    "back-to-top-button",
+    "numbered-headings",
+    "advanced-emoji",
+    "copy-code-button",
+    "hide-published-with",
+    "anchors"
   ],
   "pluginsConfig": {
     "auto-summary": {

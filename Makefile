@@ -49,7 +49,7 @@ docker-up:
 # Stop Docker containers
 docker-down:
 	@echo "Stopping Docker containers..."
-	docker compose down
+	docker compose down -v
 
 # Execute bash in Honkit container
 docker-exec:
