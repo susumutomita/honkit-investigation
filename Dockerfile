@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:latest
 
 # Create app directory
 WORKDIR /app
@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . .
 
 # Install app dependencies
-RUN npm install
+RUN make install
 
 # Serve the Honkit project
-CMD ["npx", "honkit", "serve"]
+CMD ["make", "start"]
