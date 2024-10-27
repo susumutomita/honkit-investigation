@@ -1,0 +1,11 @@
+{
+  "language": "ja",
+  "plugins": [
+    "auto-summary"
+  ],
+  "pluginsConfig": {
+    "auto-summary": {
+      "AWS/**/*.md": "Part II"
+    }
+  }
+}
