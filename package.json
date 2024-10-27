@@ -22,6 +22,7 @@
     "gitbook-plugin-copy-code-button": "^0.0.2",
     "gitbook-plugin-hide-published-with": "^0.0.1",
     "gitbook-plugin-numbered-headings": "^1.1.1",
+    "gitbook-plugin-tags": "^1.5.2",
     "gitbook-plugin-theme-api": "^1.1.2"
   },
   "devDependencies": {

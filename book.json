@@ -7,7 +7,8 @@
     "advanced-emoji",
     "copy-code-button",
     "hide-published-with",
-    "anchors"
+    "anchors",
+    "tags"
   ],
   "pluginsConfig": {
     "auto-summary": {
