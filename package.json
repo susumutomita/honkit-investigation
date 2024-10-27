@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "import-docbase": "ts-node scripts/import-docbase.ts",
-    "serve": "honkit serve"
+    "serve": "honkit serve",
+    "build": "honkit build",
+    "start": "npm run import-docbase && npm run build && npm run serve",
+    "clean": "rimraf _book",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Your Name",
   "license": "MIT",
@@ -15,6 +19,7 @@
   "devDependencies": {
     "honkit": "^6.0.2",
     "ts-node": "^10.0.0",
-    "typescript": "^4.3.5"
+    "typescript": "^4.3.5",
+    "rimraf": "^3.0.2"
   }
 }
